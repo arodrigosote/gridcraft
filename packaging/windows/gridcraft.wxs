@@ -14,25 +14,25 @@
 -->
 <Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
   <Package
-      Name="GridCraft"
-      Manufacturer="Learning Machines LLC"
+      Name="ICASYS Hojas"
+      Manufacturer="ICASYS"
       Version="$(var.Version)"
       UpgradeCode="5511327B-F305-41BE-92D0-EB84944E7C4D"
       Scope="perMachine"
       Compressed="yes"
       Language="1033">
-    <SummaryInformation Description="GridCraft spreadsheet" Manufacturer="Learning Machines LLC" />
+    <SummaryInformation Description="ICASYS Hojas spreadsheet" Manufacturer="ICASYS" />
     <!-- Same-version upgrades let successive pre-releases of one X.Y.Z replace each other
          (MSI versions are numeric, so 1.2.3-rc.1 and 1.2.3-rc.2 are both 1.2.3). -->
     <MajorUpgrade AllowSameVersionUpgrades="yes"
-        DowngradeErrorMessage="A newer version of GridCraft is already installed." />
+        DowngradeErrorMessage="A newer version of ICASYS Hojas is already installed." />
     <MediaTemplate EmbedCab="yes" CompressionLevel="high" />
 
     <Icon Id="GridcraftIcon.ico" SourceFile="$(var.IconPath)" />
     <Property Id="ARPPRODUCTICON" Value="GridcraftIcon.ico" />
-    <Property Id="ARPURLINFOABOUT" Value="https://getartcraft.com/apps/gridcraft" />
-    <Property Id="ARPURLUPDATEINFO" Value="https://getartcraft.com/apps/gridcraft" />
-    <Property Id="ARPHELPLINK" Value="https://discord.gg/artcraft" />
+    <Property Id="ARPURLINFOABOUT" Value="https://icasys.mx" />
+    <Property Id="ARPURLUPDATEINFO" Value="https://icasys.mx" />
+    <Property Id="ARPHELPLINK" Value="https://icasys.mx" />
 
     <!-- An explicit command-line value wins. Otherwise retain the previous installation's
          choice, defaulting to off for a fresh install. Run only in the first sequence so the
@@ -153,7 +153,7 @@
     <StandardDirectory Id="ProgramMenuFolder" />
     <StandardDirectory Id="DesktopFolder" />
 
-    <Feature Id="Main" Title="GridCraft" Level="1">
+    <Feature Id="Main" Title="ICASYS Hojas" Level="1">
       <ComponentGroupRef Id="GridcraftFiles" />
     </Feature>
   </Package>
@@ -162,8 +162,8 @@
     <ComponentGroup Id="GridcraftFiles" Directory="INSTALLFOLDER">
       <Component Id="GridcraftApp" Guid="0507D4B6-12FF-4882-84E1-59083E74A4EB">
         <File Id="GridcraftExe" Source="$(var.BinDir)\gridcraft.exe" KeyPath="yes">
-          <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="GridCraft"
-              Description="GridCraft spreadsheet" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
+          <Shortcut Id="StartMenuShortcut" Directory="ProgramMenuFolder" Name="ICASYS Hojas"
+              Description="ICASYS Hojas spreadsheet" WorkingDirectory="INSTALLFOLDER" Advertise="yes"
               Icon="GridcraftIcon.ico" IconIndex="0" />
         </File>
 
@@ -209,7 +209,7 @@
             Value="[DESKTOPSHORTCUT]" Type="string" KeyPath="yes" />
       </Component>
       <Component Id="DesktopShortcutComponent" Directory="DesktopFolder" Condition="DESKTOPSHORTCUT = &quot;1&quot;">
-        <Shortcut Id="DesktopShortcut" Name="GridCraft" Description="GridCraft spreadsheet"
+        <Shortcut Id="DesktopShortcut" Name="ICASYS Hojas" Description="ICASYS Hojas spreadsheet"
             Target="[#GridcraftExe]" WorkingDirectory="INSTALLFOLDER" Icon="GridcraftIcon.ico" IconIndex="0" />
         <!-- HKMU resolves to HKLM for this per-machine package, so another account can
              uninstall the marker too. MSI root -1 also satisfies ICE43 for this shortcut. -->

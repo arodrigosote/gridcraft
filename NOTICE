@@ -14,3 +14,9 @@ list (author, source, license) is in ATTRIBUTION.md.
 
 None: every bundled asset is original to GridCraft. Builds made with craft-fonts
 (CRAFT_FONTS_DIR) embed the fonts listed in ATTRIBUTION.md under the SIL Open Font License 1.1.
+
+ICASYS edition
+
+This is a modified version of GridCraft, published by ICASYS (https://icasys.mx).
+It is based on GridCraft by the ArtCraft team and community. The ArtCraft name and logos are not used.
+See ICASYS.md.

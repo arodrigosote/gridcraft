@@ -5,7 +5,7 @@
   <id>ai.storyteller.gridcraft</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MIT OR Apache-2.0</project_license>
-  <name>GridCraft</name>
+  <name>ICASYS Hojas</name>
   <summary>Calculate, analyse and chart data in workbooks</summary>
   <developer id="ai.storyteller">
     <name>Learning Machines LLC</name>
@@ -24,10 +24,10 @@
   <launchable type="desktop-id">ai.storyteller.gridcraft.desktop</launchable>
   <icon type="stock">ai.storyteller.gridcraft</icon>
   <!-- Only url types known to appstream 0.15 (Ubuntu 22.04, where CI validates): no vcs-browser. -->
-  <url type="homepage">https://getartcraft.com/apps/gridcraft</url>
-  <url type="bugtracker">https://github.com/storytold/gridcraft/issues</url>
-  <url type="help">https://github.com/storytold/gridcraft</url>
-  <url type="contact">https://discord.gg/artcraft</url>
+  <url type="homepage">https://icasys.mx</url>
+  <url type="bugtracker">https://github.com/arodrigosote/gridcraft/issues</url>
+  <url type="help">https://github.com/arodrigosote/gridcraft</url>
+  <url type="contact">https://icasys.mx</url>
   <categories>
     <category>Office</category>
     <category>Spreadsheet</category>
