@@ -2258,7 +2258,7 @@ fn automate(app: &mut SheetApp, ui: &mut Ui) {
     if __k.clicked() {
         app.open_dialog("journal", json!({}));
     }
-    let __k = big_button(ui, Icon::Script, "About\nICASYS Hojas", "Version, contributors and the AI models that helped", false);
+    let __k = big_button(ui, Icon::Script, "About\nGridCraft", "Version, contributors and the AI models that helped", false);
     control_keytip(app, ui, &__k, "about");
     if __k.clicked() {
         app.open_dialog("about", json!({}));
