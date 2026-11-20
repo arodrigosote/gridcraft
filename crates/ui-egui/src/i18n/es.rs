@@ -287,7 +287,7 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "Options" => "Opciones",
         "Account" => "Cuenta",
         "Product Information" => "Información del producto",
-        "About GridCraft" => "Acerca de GridCraft",
+        "About ICASYS Hojas" => "Acerca de ICASYS Hojas",
         "Version" => "Versión",
         "Platform" => "Plataforma",
         "Licence" => "Licencia",
@@ -523,6 +523,13 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "Show" => "Mostrar",
         "Collapse dialog" => "Contraer diálogo",
         "Expand dialog" => "Expandir diálogo",
+        "How agents drive ICASYS Hojas (MCP / control channel)" => "Cómo controlan los agentes ICASYS Hojas (MCP / canal de control)",
+        "ICASYS Hojas is fully drivable by agents. Every menu item, button and gesture is a command:" => "Los agentes pueden controlar ICASYS Hojas por completo. Cada elemento de menú, botón y gesto es un comando:",
+        "A clean-room, open-source, Rust-native spreadsheet. ICASYS edition, based on GridCraft by the ArtCraft team." => "Una hoja de cálculo de código abierto, escrita en Rust. Edición ICASYS, basada en GridCraft del equipo de ArtCraft.",
+        "icasys.mx" => "icasys.mx",
+        "ICASYS Community" => "Comunidad ICASYS",
+        "ICASYS Hojas on icasys.mx" => "ICASYS Hojas en icasys.mx",
+        "ICASYS Community…" => "Comunidad ICASYS…",
         _ => return None,
     })
 }
