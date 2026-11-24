@@ -376,7 +376,7 @@ pub(super) fn translate(text: &str) -> Option<&'static str> {
         "Options" => "Параметры",
         "Account" => "Учетная запись",
         "Product Information" => "Сведения о продукте",
-        "About GridCraft" => "О программе GridCraft",
+        "About ICASYS Hojas" => "О программе ICASYS Hojas",
         "Version" => "Версия",
         "Platform" => "Платформа",
         "Licence" => "Лицензия",

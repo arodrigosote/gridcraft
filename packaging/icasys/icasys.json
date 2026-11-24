@@ -1,0 +1,18 @@
+{
+  "app": "gridcraft",
+  "name": "ICASYS Hojas",
+  "slug": "hojas",
+  "upstream_name": "GridCraft",
+  "upstream_base": "476448d7d9f3a5f8e93fcf7d98b47fd52293fe7f",
+  "owner": "arodrigosote",
+  "es_ui": true,
+  "deb_section": "editors",
+  "cli": "gridcraft-cli",
+  "mcp": {
+    "headless": "mcp",
+    "attach": "mcp --connect 7979",
+    "app_flag": "--control 7979",
+    "auth": "token",
+    "project": "--in hoja.xlsx"
+  }
+}
